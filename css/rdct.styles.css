@@ -1,0 +1,54 @@
+.mdl-navigation__link:last-of-type, .android-navigation-container > nav > a:nth-child(2) {
+        margin-right: 24px;
+}
+
+.mdl-color--accent {
+    background-color: #8dc63f !important;
+}
+
+
+.slide1 {
+        background: url('../images/slide-01.jpg') center 30% no-repeat;
+        background-size: cover;
+}
+.slide2 {
+        background: url('../images/slide-02.jpg') center 30% no-repeat;
+        background-size: cover;
+}
+.slide3 {
+        background: url('../images/slide-03.jpg') center 30% no-repeat;
+        background-size: cover;
+}
+.slide4 {
+        background: url('../images/slide-04.jpg') center 30% no-repeat;
+        background-size: cover;
+}
+
+
+.hide {
+        visibility: hidden;
+}
+
+.mdl-color-text--accent {
+    color: #fbb040 !important;
+}
+
+.mdl-button--hollow {
+        border: 3px solid #fbb040;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #fbb040;
+}
+
+.mdl-button--hollow:hover {
+        background-color: #fbb040;
+        color: white !important;
+}
+
+.overflow-x--hidden {
+        overflow-x: hidden;
+}
+
+.margin-left--5000 {
+        margin-left: 5000px;
+}
