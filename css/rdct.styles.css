@@ -74,7 +74,7 @@
 }
 .contact-us-section {
   padding: 0px 16px 80px 16px;
-  max-width: 1024px;
+  max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
 
@@ -90,7 +90,7 @@
 background-color: #8dc63f;
 }
 .mdl-textfield{
-    width: 1024px;
+    width: 1500px;
 }
 .center {
     margin: auto;
@@ -121,39 +121,82 @@ color: #ffffff;
 .android-more-section {
   max-width: 1500px;
 }
-.mdl-badge[data-badge]:after{
-    position: absolute;
-    top: -4px;
-    right: -24px;
-    font-weight: 600;
-    font-size:12px;
-    width: 22px;
-    height: 22px;
-    background: #8dc63f;
-    text-align: center;
+.badge1 {
+   position:relative;
 }
-.mdl-badge-A[data-badge]:after{
-    position: absolute;
-    top: -4px;
-    right: -24px;
-    font-weight: 600;
-    font-size:12px;
-    width: 22px;
-    height: 22px;
-    text-align: center;
+.badge1[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+   top:10px;
+   right:-40px;
+   font-size:12px;
+   background:#8dc63f;
+   color:white;
+   width:18px;height:18px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   box-shadow:0 0 1px #333;
 }
-.mdl-badge-R[data-badge]:after{
-    position: absolute;
-    top: -4px;
-    right: -24px;
-    font-weight: 600;
-    font-size:12px;
-    width: 22px;
-    height: 22px;
-    text-align: center;
+.badge2 {
+   position:relative;
 }
+.badge2[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+    top:10px;
+   right:-40px;
+   font-size: 12px;
+   background:#FF9400;
+   color:white;
+   width:18px;height:18px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   box-shadow:0 0 1px #333;
+}
+.badge3 {
+   position:relative;
+}
+.badge3[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+   top:10px;
+   right:-40px;
+   font-size:12px;
+   background:#FF0000;
+   color:white;
+   width:18px;height:18px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   box-shadow:0 0 1px #333;
+}
+.badge4 {
+   position:relative;
+}
+.badge4[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+   top:10px;
+   right:-40px;
+   font-size: 12px;
+   background:#8dc63f;
+   color:white;
+   width:55px;height:20px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   box-shadow:0 0 1px #333;
+   text-align: center;
+   vertical-align: center;
+}
+
 .logo-font-size{
     font-size: 24px;
+}
+.logo-font-color{
+    color: #ffffff
 }
 .android-screen-section{
     padding-top: 20px;
@@ -171,4 +214,8 @@ color: #ffffff;
 .android-footer {
   background-color: #37474f;
   position: relative;
+}
+.mdl-typography--font-light a{
+    color: #8dc63f;
+    text-decoration: none;
 }
