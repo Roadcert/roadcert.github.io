@@ -1,0 +1,221 @@
+.mdl-navigation__link:last-of-type, .android-navigation-container > nav > a:nth-child(2) {
+        margin-right: 24px;
+}
+
+.mdl-color--accent {
+    background-color: #8dc63f !important;
+}
+
+
+.slide1 {
+        background: url('../images/slide-01.jpg') center 30% no-repeat;
+        background-size: cover;
+}
+.slide2 {
+        background: url('../images/slide-02.jpg') center 30% no-repeat;
+        background-size: cover;
+}
+.slide3 {
+        background: url('../images/slide-03.jpg') center 30% no-repeat;
+        background-size: cover;
+}
+.slide4 {
+        background: url('../images/slide-04.jpg') center 30% no-repeat;
+        background-size: cover;
+}
+
+
+.hide {
+        visibility: hidden;
+}
+
+.mdl-color-text--accent {
+    color: #fbb040 !important;
+}
+
+.mdl-button--hollow {
+        border: 3px solid #fbb040;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #fbb040;
+}
+
+.mdl-button--hollow:hover {
+        background-color: #fbb040;
+        color: white !important;
+}
+
+.overflow-x--hidden {
+        overflow-x: hidden;
+}
+
+.margin-left--5000 {
+        margin-left: 5000px;
+}
+
+.register-button{
+    margin-right: 10px;
+}
+
+.login-button{
+    border-radius: 2px solid #8dc63f;
+}
+.material-icons-img{
+    color: #8dc63f
+}
+.pricing{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pricing-premium{
+    background-color: #8dc63f;
+    border-radius: 2px solid #8dc63f;
+}
+.contact-us-section {
+  padding: 0px 16px 80px 16px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label .mdl-textfield--floating-label{
+  color: #8dc63f;
+  font-size: 12px;
+  top: 4px;
+  visibility: visible;
+
+}
+.mdl-textfield__label:after{
+background-color: #8dc63f;
+}
+.mdl-textfield{
+    width: 1500px;
+}
+.center {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+.mdl-data-table td{
+    max-width: 100%;
+}
+.contact-us-button{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact-us-button-red{
+color: #FF0000
+}
+.contact-us-button-amber{
+color: #FF9400;
+}
+.contact-us-button-green{
+color: #8dc63f;
+}
+.submit-us-button{
+background:#8dc63f ;
+color: #ffffff;
+}
+.android-more-section {
+  max-width: 1500px;
+}
+.badge1 {
+   position:relative;
+}
+.badge1[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+   top:10px;
+   right:-40px;
+   font-size:12px;
+   background:#8dc63f;
+   color:white;
+   width:18px;height:18px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   box-shadow:0 0 1px #333;
+}
+.badge2 {
+   position:relative;
+}
+.badge2[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+    top:10px;
+   right:-40px;
+   font-size: 12px;
+   background:#FF9400;
+   color:white;
+   width:18px;height:18px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   box-shadow:0 0 1px #333;
+}
+.badge3 {
+   position:relative;
+}
+.badge3[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+   top:10px;
+   right:-40px;
+   font-size:12px;
+   background:#FF0000;
+   color:white;
+   width:18px;height:18px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   box-shadow:0 0 1px #333;
+}
+.badge4 {
+   position:relative;
+}
+.badge4[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+   top:10px;
+   right:-40px;
+   font-size: 12px;
+   background:#8dc63f;
+   color:white;
+   width:55px;height:20px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   box-shadow:0 0 1px #333;
+   text-align: center;
+   vertical-align: center;
+}
+
+.logo-font-size{
+    font-size: 24px;
+}
+.logo-font-color{
+    color: #ffffff
+}
+.android-screen-section{
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.android-customized-section-text {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 16px 30px 16px;
+}
+.bold{
+    font-weight: bold;
+}
+.android-footer {
+  background-color: #37474f;
+  position: relative;
+}
+.mdl-typography--font-light a{
+    color: #8dc63f;
+    text-decoration: none;
+}
