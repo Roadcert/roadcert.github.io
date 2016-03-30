@@ -40,7 +40,7 @@
 }
 .pricing h1 {
     margin: 20px 0 10px 0;
-    font-size: 1.25em;
+    font-size: 2.25em;
     color: rgba(0, 0, 0, 0.8);
 }
 .pricing h2 {
@@ -70,7 +70,7 @@
     height: 100px;
     width: 100px;
     text-align: center;
-    background-color: #e74c3c;
+    background-color: rgb(242, 100, 110);
     border-radius: 50%;
     line-height: 100px;
     color: #fff;
