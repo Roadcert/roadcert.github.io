@@ -174,3 +174,16 @@
     margin-left: 0;
   }
 }
+
+/*Tablet fixes*/
+@media (min-width: 501px) and (max-width: 840px) {
+    .pricing .additional div:first-of-type{
+        text-align: center;
+    }
+    .pricing .additional h1{
+        margin-left: 0;
+    }
+    .pricing .additional .mdl-button{
+        width: 262%;
+    }
+}
