@@ -11,7 +11,7 @@
 }
 .pricing .silver, .pricing .plat {
     float: left;
-    width: 250px;
+    width: 32%;
     background: #f3f3f3;
     text-align: center;
     border-radius: 5px;
@@ -19,13 +19,34 @@
 .pricing .gold {
     float: left;
     position: relative;
-    width: 250px;
+    width: 32%;
     top: -50px;
     padding: 50px 0;
     background: #f3f3f3;
     text-align: center;
     border-radius: 5px;
      border: 3px solid #8dc63f;
+}
+.pricing .additional{
+    width: 95%;
+    background: #f3f3f3;
+    float: left;
+    position: relative;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 10px;
+}
+.pricing .additional h1{
+    display: inline-block;
+    margin-left: 40px;
+}
+.pricing .additional .mdl-cell{
+    display: inline-block;
+}
+.pricing .additional .mdl-cell:nth-of-type(2){
+    text-align: right;
+}
+.pricing .additional .mdl-button{
 }
 .pricing .gold > .price {
     background: #8dc63f;
