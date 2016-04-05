@@ -109,11 +109,11 @@
     border-radius: 2px solid #8dc63f;
 }
 .contact-us-section {
-  padding: 0px 16px 80px 16px;
+  padding: 80px 16px 80px 16px;
   max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
-
+  clear: both;
 }
 .mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label .mdl-textfield--floating-label{
   color: #8dc63f;
@@ -125,8 +125,24 @@
 .mdl-textfield__label:after{
 background-color: #8dc63f;
 }
+.contact-form{
+  max-width: 770px;
+  width: 100%;
+  margin: auto;
+}
 .mdl-textfield{
-    width: 1500px;
+    width: 100%;
+}
+.contact-form #form-errors{
+  margin-bottom: 15px;
+}
+.contact-form #contact-desc{
+  margin-bottom: 10px;
+}
+.contact-form #form-errors .error{
+  display: none;
+  color: rgb(242, 100, 110);
+  font-weight: bold;
 }
 .center {
     margin: auto;
@@ -234,6 +250,9 @@ color: #ffffff;
 .logo-font-color{
     color: #ffffff
 }
+.android-wear{
+  min-height: 353px;
+}
 .android-screen-section{
     padding-top: 20px;
     padding-bottom: 0px;
@@ -254,4 +273,23 @@ color: #ffffff;
 .mdl-typography--font-light a{
     color: #8dc63f;
     text-decoration: none;
+}
+#layeredAnimation{
+  margin: auto;
+}
+}
+#layeredAnimation #base{
+  opacity: 0;
+  display: none; 
+  background: url('file:///home/stephen/Develop/local-box/roadcert/roadcert.github.io/images/base.png') no-repeat; 
+  width: 700px; 
+  height: 169px;
+  margin: auto;
+}
+#layeredAnimation #layer1{
+  opacity: 0;
+  display: none; 
+  background: url('file:///home/stephen/Develop/local-box/roadcert/roadcert.github.io/images/layer1.png') no-repeat; 
+  width: 100%;
+  height: 100%;
 }
