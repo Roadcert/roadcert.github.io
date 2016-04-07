@@ -317,27 +317,9 @@ color: #ffffff;
     color: #8dc63f;
     text-decoration: none;
 }
-#layeredAnimation{
-  margin: auto;
-}
-}
-#layeredAnimation #base{
-  opacity: 0;
-  display: none; 
-  background: url('file:///home/stephen/Develop/local-box/roadcert/roadcert.github.io/images/base.png') no-repeat; 
-  width: 700px; 
-  height: 169px;
-  margin: auto;
-}
-#layeredAnimation #layer1{
-  opacity: 0;
-  display: none; 
-  background: url('file:///home/stephen/Develop/local-box/roadcert/roadcert.github.io/images/layer1.png') no-repeat; 
-  width: 100%;
-  height: 100%;
-}
 .documents{
   padding: 0;
+  margin-bottom: 23px;
 }
 .documents li{
   display: inline-block;
