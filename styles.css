@@ -300,10 +300,10 @@ a img{
 
 .android-wear-section {
   position: relative;
-  background: url('images/haulage-UK.jpg') center top no-repeat;
+  background: url('images/app__background--haulage.jpg') center no-repeat;
   background-size: cover;
   background-position: 0 -400px;
-  height: 800px;
+  height: 460px;
   background-color: #37474f;
 }
 
@@ -312,7 +312,7 @@ a img{
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: #37474f;
+  background-color: rgba(1, 32, 47, 0.5); /*#37474f*/
 }
 
 .android-wear-band-text {
