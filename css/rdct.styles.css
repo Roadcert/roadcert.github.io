@@ -61,6 +61,22 @@
         color: white !important;
 }
 
+.mdl-color-text--accent--black {
+    color: #000  !important;
+}
+
+.mdl-button--hollow--black {
+        border: 3px solid #000 ;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #000 ;
+}
+
+.mdl-button--hollow--black:hover {
+        background-color: #000 ;
+        color: white !important;
+}
+
 
 
 

@@ -27,9 +27,9 @@
     border-radius: 5px;
      border: 3px solid #8dc63f;
 }
+
 .pricing .additional{
     width: 95%;
-    background: #f3f3f3;
     float: left;
     position: relative;
     border-radius: 5px;
@@ -42,11 +42,45 @@
 }
 .pricing .additional .mdl-cell{
     display: inline-block;
+    text-align: center;
 }
-.pricing .additional .mdl-cell:nth-of-type(2){
-    text-align: right;
+.pricing .hcard{
+    background: #f3f3f3;
+    padding-top: 0;
+    padding-bottom: 30px;
+    width: 95%;
+    float: left;
+    position: relative;
+    border-radius: 5px;
 }
-.pricing .additional .mdl-button{
+.pricing .hcard h1{
+    margin-left: 0;
+    margin-top: 44px;
+}
+.pricing .hcard .col{
+    display: inline-block;
+}
+.pricing .hcard span{
+    border-bottom: 0;
+}
+.pricing .hcard .mdl-button{
+    display: block;
+    width: 125px;
+    margin: auto;
+    margin-top: -30px;
+}
+.pricing .hcard .mdl-cell:nth-of-type(2){
+    margin-top: 15px;
+}
+.pricing .hcard .mdl-cell:nth-of-type(3){
+    margin-top: 10px;
+}
+.pricing .hcard .mdl-cell:nth-of-type(3) p{
+    margin-bottom: 3px;
+}
+.pricing .hcard .price{
+    background: #8dc63f;
+    margin-top: 0;
 }
 .pricing h1 {
     margin: 20px 0 10px 0;
@@ -153,18 +187,18 @@
   .pricing .container{
     margin-top: 30px;
   }
-  .pricing .vcard{
+  .pricing .vcard, .pricing .hcard{
     width: 100%;
     float: none;
     margin-bottom: 15px;
     position: initial;
     padding: 0;
   }
-  .pricing .vcard .col{
+  .pricing .vcard .col, .pricing .hcard .col{
     display: inline-block;
     width: 45%;
   }
-  .pricing .vcard h1{
+  .pricing .vcard h1, , .pricing .hcard h1{
     font-size: 2em;
   }
   .pricing .additional, .pricing .additional .mdl-cell:nth-of-type(2){
@@ -172,6 +206,16 @@
   }
   .pricing .additional h1{
     margin-left: 0;
+  }
+  .pricing .hcard .mdl-cell{
+    margin-top: 0;
+  }
+  .pricing .hcard .mdl-button{
+    width: 125px;
+    margin-top: -5px;
+  }
+  .pricing .hcard .mdl-cell p{
+    margin: 10px 0;
   }
 }
 
@@ -185,5 +229,18 @@
     }
     .pricing .additional .mdl-button{
         width: 262%;
+    }
+    #tmp-hcard{
+        display: block;
+        clear: both;
+        margin-top: 35px;
+        width: 97%;
+        padding: 0;
+    }
+    #tmp-hcard .col{
+        display: inline-block;
+    }
+    #tmp-hcard .col:nth-of-type(2){
+        margin-left: 15%;
     }
 }
