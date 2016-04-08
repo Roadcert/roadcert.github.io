@@ -196,7 +196,7 @@ a img{
 
 .android-create-character {
   font-size: 21px;
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
   .android-create-character a {
@@ -300,7 +300,7 @@ a img{
 
 .android-wear-section {
   position: relative;
-  background: url('images/app__background--haulage.jpg') center no-repeat;
+  background: url('images/app__background--haulage.jpg') center;
   background-size: cover;
   background-position: 0 -400px;
   height: 460px;
@@ -308,7 +308,6 @@ a img{
 }
 
 .android-wear-band {
-  position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center;

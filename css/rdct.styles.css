@@ -304,8 +304,7 @@ color: #ffffff;
   padding: 0px 16px 30px 16px;
 }
 #earned-rec-section{
-  height: 0;
-  overflow: hidden;
+  height: auto;
 }
 .earned-recognition{
   height: auto;
@@ -355,23 +354,22 @@ color: #ffffff;
   padding: 0;
   padding-left: 35px;
   margin-top: -20px;
+  padding-bottom: 10px;
 }
 #earned-rec-section .info li{
   list-style: none;
 }
 #earned-rec-section .info li i{
-  color: rgb(242, 100, 110);
   display: inline-block;
   position: relative;
   top: 42px;
-  font-size: 25px;
 }
-#earned-rec-section .info li:nth-of-type(2) i{
+/*#earned-rec-section .info li:nth-of-type(2) i{
   color: #FF9400;
 }
 #earned-rec-section .info li:nth-of-type(3) i{
   color: #8DC63F;
-}
+}*/
 #earned-rec-section .info li .text{
   display: inline-block;
   padding-left: 60px;
