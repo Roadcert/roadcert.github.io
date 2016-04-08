@@ -378,3 +378,10 @@ color: #ffffff;
 .mdl-mega-footer--middle-section{
   text-align: left
 }
+#contact-header-btn{
+  padding: 0px 10px;
+  height: 33px;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -16px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+  margin-right: 13px;
+}
