@@ -97,6 +97,11 @@
         color: white !important;
 }
 
+.agree{
+  margin-bottom: 20px!important;
+  font-size: 12px;
+}
+
 .overflow-x--hidden {
         overflow-x: hidden;
 }
@@ -382,6 +387,29 @@ color: #ffffff;
   padding: 0px 10px;
   height: 33px;
   border-radius: 4px;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -16px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
   margin-right: 13px;
+}
+.hashtags{
+  padding: 0;
+  margin-bottom: 10px;
+}
+.hashtags .mdl-cell{
+  background: white;
+  border-radius: 4px;
+  padding: 15px 0;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,.14),0 0px 1px 0px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+}
+.hashtags .mdl-cell:first-of-type{
+  margin-left: 0;
+}
+.hashtags .text{
+  display: block;
+  text-align: center;
+  margin-top: 6px;
+}
+.hashtags .material-icons{
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  color: #8DC63F;
 }
