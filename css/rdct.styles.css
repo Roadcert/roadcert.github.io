@@ -340,21 +340,23 @@ color: #ffffff;
 .documents{
   padding: 0;
   margin-bottom: 23px;
+  margin-top: 50px;
 }
 .documents li{
   display: inline-block;
-  width: 264px;
-  color: #FDD498;
+    width: 33%;
+    color: #FDD498;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    font-weight: bold;
 }
-.documents li:before {
-  content:'\00BB';
-  color: white;
-  padding-right: 5px;
+.documents li.width--100 {
+        width: 100%;
 }
-.documents li:hover{
-    color: #fbb040;
-    transition: all 0.2s ease;
+.documents li.align--center {
+        text-align: center;
 }
+
 #earned-rec-section .info{
   padding: 0;
   padding-left: 35px;
@@ -412,4 +414,8 @@ color: #ffffff;
   text-align: center;
   font-size: 30px;
   color: #8DC63F;
+}
+
+#canvas-text {
+        padding-top: 100px;
 }
