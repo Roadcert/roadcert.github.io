@@ -1,0 +1,457 @@
+.mdl-navigation__link:last-of-type, .android-navigation-container > nav > a:nth-child(2) {
+        margin-right: 24px;
+}
+
+.mdl-color--accent {
+    background-color: #8dc63f !important;
+}
+
+.white-bg {
+        background-color: white;
+}
+
+.slide1 {
+        /*background: url('../images/slide-01.jpg') center 30% no-repeat;*/
+        background-size: cover;
+}
+.slide2 {
+        background: url('../images/slide-02.jpg') center 30% no-repeat;
+        background-size: cover;
+}
+.slide3 {
+        background: url('../images/slide-03.jpg') center 30% no-repeat;
+        background-size: cover;
+}
+.slide4 {
+        background: url('../images/slide-04.jpg') center 30% no-repeat;
+        background-size: cover;
+}
+
+
+.hide {
+        visibility: hidden;
+}
+
+.mdl-color-text--accent--red {
+    color: rgb(242, 100, 110) !important;
+}
+
+.mdl-button--hollow--red {
+        border: 3px solid rgb(242, 100, 110);
+        border-style: solid;
+        border-width: 3px;
+        border-color: rgb(242, 100, 110);
+}
+
+.mdl-button--hollow--red:hover {
+        background-color: rgb(242, 100, 110);
+        color: white !important;
+}
+
+.mdl-color-text--accent--green {
+    color: #8dc63f  !important;
+}
+
+.mdl-button--hollow--green {
+        border: 3px solid #8dc63f ;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #8dc63f ;
+}
+
+.mdl-button--hollow--green:hover {
+        background-color: #8dc63f ;
+        color: white !important;
+}
+
+.mdl-color-text--accent--black {
+    color: #000  !important;
+}
+
+.mdl-button--hollow--black {
+        border: 3px solid #000 ;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #000 ;
+}
+
+.mdl-button--hollow--black:hover {
+        background-color: #000 ;
+        color: white !important;
+}
+
+
+
+
+
+.mdl-color-text--accent {
+    color: #fbb040 !important;
+}
+
+.mdl-button--hollow {
+        border: 3px solid #fbb040;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #fbb040;
+}
+
+.mdl-button--hollow:hover {
+        background-color: #fbb040;
+        color: white !important;
+}
+
+.agree{
+  margin-bottom: 20px!important;
+  font-size: 12px;
+}
+
+.overflow-x--hidden {
+        overflow-x: hidden;
+}
+
+.margin-left--5000 {
+        margin-left: 5000px;
+}
+
+.register-button{
+    margin-right: 10px;
+}
+
+.login-button{
+    border-radius: 2px solid #8dc63f;
+}
+.material-icons-img{
+    color: #8dc63f
+}
+.pricing{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pricing-premium{
+    background-color: #8dc63f;
+    border-radius: 2px solid #8dc63f;
+}
+.contact-us-section {
+  padding: 80px 16px 80px 16px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+}
+.contact-us-section .mdl-grid, .contact-us-section .mdl-grid .mdl-cell{
+  padding: 0;
+  margin: 0;
+}
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label .mdl-textfield--floating-label{
+  color: #8dc63f;
+  font-size: 12px;
+  top: 4px;
+  visibility: visible;
+
+}
+.mdl-textfield__label:after{
+background-color: #8dc63f;
+}
+.contact-form{
+  max-width: 770px;
+  width: 100%;
+  margin: auto;
+  text-align: left;
+}
+.contact-form #contact-desc{
+  margin-bottom: 10px;
+}
+.mdl-textfield{
+    width: 100%;
+}
+.contact-form #form-errors{
+  margin-bottom: 15px;
+}
+.contact-form #form-errors .error .material-icons{
+  position: relative;
+  top: 7px;
+  margin-right: 5px;
+  color: rgb(242, 100, 110);
+}
+.contact-form #form-errors{
+  text-align: right;
+}
+.contact-form #form-errors .error{
+  display: none;
+  color: rgb(242, 100, 110);
+  margin-right: -35px;
+}
+.center {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+.mdl-data-table td{
+    max-width: 100%;
+}
+.contact-us-button{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact-us-button-red{
+color: #FF0000
+}
+.contact-us-button-amber{
+color: #FF9400;
+}
+.contact-us-button-green{
+color: #8dc63f;
+}
+.submit-us-button{
+background:#8dc63f ;
+color: #ffffff;
+}
+.android-more-section {
+  max-width: 1500px;
+}
+.badge1 {
+   position:relative;
+}
+.badge1[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+   top:10px;
+   right:-40px;
+   font-size:12px;
+   background:#8dc63f;
+   color:white;
+   width:18px;height:18px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   box-shadow:0 0 1px #333;
+}
+.badge2 {
+   position:relative;
+}
+.badge2[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+    top:10px;
+   right:-40px;
+   font-size: 12px;
+   background:#FF9400;
+   color:white;
+   width:18px;height:18px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   box-shadow:0 0 1px #333;
+}
+.badge3 {
+   position:relative;
+}
+.badge3[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+   top:10px;
+   right:-40px;
+   font-size:12px;
+   background:#FF0000;
+   color:white;
+   width:18px;height:18px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   box-shadow:0 0 1px #333;
+}
+.badge4 {
+   position:relative;
+}
+.badge4[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+   top:10px;
+   right:-40px;
+   font-size: 12px;
+   background:#8dc63f;
+   color:white;
+   width:55px;height:20px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   box-shadow:0 0 1px #333;
+   text-align: center;
+   vertical-align: center;
+}
+
+.logo-font-size{
+    font-size: 24px;
+}
+.logo-font-color{
+    color: #ffffff
+}
+#aw-sec{
+  margin-top: 75px;
+}
+#aw-sec .sub-heading{
+  font-size: 17px;
+  color: #F8ABB1;
+}
+#f2-wb{
+  display: none;
+}
+.android-wear{
+  min-height: 353px;
+}
+.android-screen-section{
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.android-customized-section-text {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 16px 30px 16px;
+}
+#earned-rec-section{
+  height: auto;
+}
+.earned-recognition{
+  height: auto;
+  background: none;
+}
+.earned-recognition .android-wear-band{
+  background: #f7f7f7;
+  height: auto;
+}
+.earned-recognition .android-wear-band-text{
+  color: #3E3E3E;
+}
+.earned-recognition .android-alt-link{
+  color: #37474f!important;
+  font-weight: bold;
+}
+.bold{
+    font-weight: bold;
+}
+.android-footer {
+  background-color: #37474f;
+  position: relative;
+}
+.mdl-typography--font-light a{
+    color: #8dc63f;
+    text-decoration: none;
+}
+.documents{
+  padding: 0;
+  margin-bottom: 23px;
+  margin-top: 50px;
+}
+.documents li{
+  display: inline-block;
+    width: 33%;
+    color: #FDD498;
+    font-size: 1.46rem;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.documents li.width--100 {
+        width: 100%;
+}
+.documents li.align--center {
+        text-align: center;
+}
+
+#earned-rec-section .info{
+  padding: 0;
+  padding-left: 35px;
+  margin-top: -20px;
+  padding-bottom: 10px;
+}
+#earned-rec-section .info li{
+  list-style: none;
+}
+#earned-rec-section .info li i{
+  display: inline-block;
+  position: relative;
+  top: 42px;
+}
+/*#earned-rec-section .info li:nth-of-type(2) i{
+  color: #FF9400;
+}
+#earned-rec-section .info li:nth-of-type(3) i{
+  color: #8DC63F;
+}*/
+#earned-rec-section .info li .text{
+  display: inline-block;
+  padding-left: 60px;
+  width: 90%;
+}
+.mdl-mega-footer--middle-section{
+  text-align: left
+}
+#contact-header-btn{
+  padding: 0px 10px;
+  height: 33px;
+  border-radius: 4px;
+  margin-right: 13px;
+}
+.hashtags{
+  padding: 0;
+  margin-bottom: 10px;
+}
+.hashtags .mdl-cell{
+  background: white;
+  padding: 15px 0;
+}
+.hashtags .mdl-cell:first-of-type{
+  margin-left: 0;
+}
+.hashtags .text{
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+.hashtags .material-icons{
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  color: #8DC63F;
+}
+
+#canvas-text {
+        padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1; /*-100;*/
+    transform: translateX(-50%) translateY(-50%);
+        /*background: url('https://demosthenes.info/assets/images/polina.jpg') no-repeat;*/
+  background-size: cover;
+  transition: 1s opacity;
+  opacity: .2;
+}
+
+
+@media screen and (max-device-width: 800px) {
+  #bgvid { display: none; }
+}
+
+
+
+

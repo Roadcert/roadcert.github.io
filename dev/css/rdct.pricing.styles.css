@@ -1,0 +1,251 @@
+.android-more-section {
+  /*padding: 80px 0;*/
+  padding-top: 35px;
+  max-width:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pricing .container {
+    max-width: 100%;
+    width:100%;
+    margin: 100px auto;
+}
+.pricing .silver, .pricing .plat {
+    float: left;
+    width: 32%;
+    background: #f3f3f3;
+    text-align: center;
+    border-radius: 5px;
+}
+.pricing .gold {
+    float: left;
+    position: relative;
+    width: 32%;
+    top: -50px;
+    padding: 50px 0;
+    background: #f3f3f3;
+    text-align: center;
+    border-radius: 5px;
+     border: 3px solid #8dc63f;
+}
+
+.pricing .additional{
+    width: 95%;
+    float: left;
+    position: relative;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 10px;
+}
+.pricing .additional h1{
+    display: inline-block;
+    margin-left: 40px;
+}
+.pricing .additional .mdl-cell{
+    display: inline-block;
+    text-align: center;
+}
+.pricing .hcard{
+    background: #f3f3f3;
+    padding-top: 0;
+    padding-bottom: 30px;
+    width: 95%;
+    float: left;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.pricing .hcard h1{
+    margin-left: 0;
+    margin-top: 44px;
+}
+.pricing .hcard .col{
+    display: inline-block;
+}
+.pricing .hcard span{
+    border-bottom: 0;
+}
+.pricing .hcard .mdl-button{
+    display: block;
+    width: 125px;
+    margin: auto;
+    margin-top: -30px;
+}
+.pricing .hcard .mdl-cell:nth-of-type(2){
+    margin-top: 15px;
+}
+.pricing .hcard .mdl-cell:nth-of-type(3){
+    margin-top: 10px;
+}
+.pricing .hcard .mdl-cell:nth-of-type(3) p{
+    margin-bottom: 3px;
+}
+.pricing .hcard .price{
+    background: #8dc63f;
+    margin-top: 0;
+}
+.pricing h1 {
+    margin: 20px 0 10px 0;
+    font-size: 2.25em;
+    color: rgba(0, 0, 0, 0.8);
+}
+.pricing h2 {
+    font-size: .75em;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.pricing p {
+    color: rgba(0, 0, 0, 0.4);
+    margin: 10px 0;
+    font-weight: 100;
+    font-size: .75em;
+}
+.pricing span {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    display: inline-block;
+    width: 125px;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.pricing .price {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(242, 100, 110);
+    border-radius: 50%;
+    line-height: 100px;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 100;
+    margin: 20px auto;
+}
+.pricing .gold .price {
+    background: #8dc63f;
+    color: white;
+}
+.pricing .plat .price {
+    background: #FF9400;
+    color: white;
+}
+.pricing .gold h1, .pricing .gold h2, .pricing .gold p, .pricing .gold span {
+     color: rgba(0, 0, 0, 0.7);
+}
+.pricing button {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 35px;
+    border-bottom: 5px solid #c0392b;
+    background: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: .75em;
+    font-weight: 100;
+
+}
+.pricing .gold-button{
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 35px;
+    border-bottom: 5px solid #c0392b;
+    background: #8dc63f ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: .75em;
+    font-weight: 100;
+
+}
+.pricing .plat-button {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 35px;
+    border-bottom: 5px solid #c0392b;
+    background: #FF9400;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: .75em;
+    font-weight: 100;
+}
+
+.pricing .android-customized-section-text {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px 0 16px;
+}
+
+/*Mobile devices*/
+@media (max-width: 500px) {
+  .pricing .container{
+    margin-top: 30px;
+  }
+  .pricing .vcard, .pricing .hcard{
+    width: 100%;
+    float: none;
+    margin-bottom: 15px;
+    position: initial;
+    padding: 0;
+  }
+  .pricing .vcard .col, .pricing .hcard .col{
+    display: inline-block;
+    width: 45%;
+  }
+  .pricing .vcard h1, , .pricing .hcard h1{
+    font-size: 2em;
+  }
+  .pricing .additional, .pricing .additional .mdl-cell:nth-of-type(2){
+    text-align: center;
+  }
+  .pricing .additional h1{
+    margin-left: 0;
+  }
+  .pricing .hcard .mdl-cell{
+    margin-top: 0;
+  }
+  .pricing .hcard .mdl-button{
+    width: 125px;
+    margin-top: -5px;
+  }
+  .pricing .hcard .mdl-cell p{
+    margin: 10px 0;
+  }
+}
+
+/*Tablet fixes*/
+@media (min-width: 501px) and (max-width: 840px) {
+    .pricing .additional div:first-of-type{
+        text-align: center;
+    }
+    .pricing .additional h1{
+        margin-left: 0;
+    }
+    .pricing .additional .mdl-button{
+        width: 262%;
+    }
+    #tmp-hcard{
+        display: block;
+        clear: both;
+        margin-top: 35px;
+        width: 97%;
+        padding: 0;
+    }
+    #tmp-hcard .col{
+        display: inline-block;
+    }
+    #tmp-hcard .col:nth-of-type(2){
+        margin-left: 15%;
+    }
+    #aw-sec{
+        background-size: initial;
+    }
+}
