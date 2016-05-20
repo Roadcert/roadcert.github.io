@@ -365,6 +365,7 @@ color: #ffffff;
 }
 .below-docs li{
   list-style: none;
+  opacity: 0;
 }
 .below-docs li:before{
   content: '\00BB';
