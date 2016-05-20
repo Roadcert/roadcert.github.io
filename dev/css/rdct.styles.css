@@ -49,7 +49,8 @@
 }
 
 .mdl-color-text--accent--green {
-    color: #8dc63f  !important;
+    /*color: #8dc63f  !important;*/
+    color: #fff;
 }
 
 .mdl-button--hollow--green {
@@ -359,6 +360,18 @@ color: #ffffff;
 .documents li.align--center {
         text-align: center;
 }
+.below-docs{
+  padding: 0;
+}
+.below-docs li{
+  list-style: none;
+}
+.below-docs li:before{
+  content: '\00BB';
+  font-size: 19px;
+  padding-right: 10px;
+  color: #8DC63F;
+}
 
 #earned-rec-section .info{
   padding: 0;
@@ -386,7 +399,8 @@ color: #ffffff;
   width: 90%;
 }
 .mdl-mega-footer--middle-section{
-  text-align: left
+  text-align: left;
+  margin-top: -35px;
 }
 #contact-header-btn{
   padding: 0px 10px;
@@ -444,7 +458,7 @@ video {
         /*background: url('https://demosthenes.info/assets/images/polina.jpg') no-repeat;*/
   background-size: cover;
   transition: 1s opacity;
-  opacity: .2;
+  opacity: 0.8;
 }
 
 

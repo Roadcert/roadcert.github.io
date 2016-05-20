@@ -180,7 +180,7 @@ a img{
 .logo-font {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
-  color: #767777;
+  color: #fff;/*#767777*/
   font-weight: 500;
 }
 
@@ -201,7 +201,7 @@ a img{
 
   .android-create-character a {
     text-decoration: none;
-    color: #767777;
+    color: #fff;/*#767777*/
     font-weight: 300;
   }
 
@@ -216,7 +216,7 @@ a img{
   width: 100%;
   white-space: nowrap;
   overflow-x: auto;
-  padding-top: 80px;
+  padding-top: 0px;
 }
 
 .android-screen {
