@@ -49,10 +49,11 @@
 }
 
 .mdl-color-text--accent--green {
-    /*color: #8dc63f  !important;*/
-    color: #fff;
+    color: #8dc63f  !important;
 }
-
+.mdl-color-text--accent--white {
+    color: #fff  !important;
+}
 .mdl-button--hollow--green {
         border: 3px solid #8dc63f ;
         border-style: solid;
